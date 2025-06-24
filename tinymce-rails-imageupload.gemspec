@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.add_runtime_dependency     "railties",      ">= 3.2"
-  s.add_runtime_dependency     "tinymce-rails", "~> 4.0"
+  s.add_runtime_dependency     "railties",      "~> 7.2.1.1"
+  s.add_runtime_dependency     "tinymce-rails", "~> 7.9.0"
   s.add_development_dependency "bundler",       "~> 1.0"
-  s.add_development_dependency "rails",         ">= 3.1"
+  s.add_development_dependency "rails",         "~> 7.2.1.2"
 end
